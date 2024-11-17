@@ -5,9 +5,7 @@ CSS_DIR="$SITE_DIR/css"
 W3CSS_URL="https://www.w3schools.com/w3css/4/w3.css"
 W3CSS_FILE="$CSS_DIR/w3.css"
 
-SITE_DIR="mi_sitio_web"
-
-mkdir -p "CSS_DIR/css"
+mkdir -p "$CSS_DIR"
 
 if [ ! -f "$W3CSS_FILE " ]; then
 echo "Descargfando w3.css"
@@ -79,3 +77,5 @@ cat <<EOL > "$SITE_DIR/página2.html"
 </body>
 </html>
 EOL
+
+echo "Sitio web creado en el directorio '$SITE_DIR'."
