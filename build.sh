@@ -7,7 +7,7 @@ W3CSS_FILE="$CSS_DIR/w3.css"
 
 SITE_DIR="mi_sitio_web"
 
-mkdir -p "$SITE_DIR/css"
+mkdir -p "CSS_DIR/css"
 
 if [ ! -f "$W3CSS_FILE " ]; then
 echo "Descargfando w3.css"
